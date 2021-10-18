@@ -12,7 +12,7 @@ if($nama == ''){
 } elseif (strlen($nama) < 2){
 ?>
     <script>
-        alert('Sila isi nama pnajang. ');
+        alert('Sila isi nama panjang. ');
         window.location = 'index.php';
     </script>
 <?php
